@@ -1,12 +1,12 @@
 @echo off
+
 setlocal
+cd /d %~dp0
 
 where gh>nul 2>nul
 if %ERRORLEVEL% NEQ 0 goto :gherr
 
-:start
-
-cd /d %~dp0
+:pstart
 
 echo E - Exit
 echo U - Update/Install
@@ -54,7 +54,7 @@ echo.
 echo [OK] Installed successfully!
 echo.
 
-goto :start
+goto :pstart
 
 :gherr
 echo [ERROR] Please install GitHub CLI and authenticate

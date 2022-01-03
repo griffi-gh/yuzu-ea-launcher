@@ -1,2 +1,4 @@
 yuzu-early-access
 yuzu-early-access/*
+*.log
+*.zip
