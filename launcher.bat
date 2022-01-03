@@ -43,7 +43,7 @@ ren "%path%" latest.zip
 echo [Done]
 
 echo|set /p="Extracting..."
-7za x latest.zip -o"yuzu-early-access" > nul
+7za x latest.zip -o"." > nul
 echo [Done]
 
 echo|set /p="Cleaning up..."
