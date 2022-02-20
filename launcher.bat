@@ -54,7 +54,8 @@ echo.
 echo [OK] Installed successfully!
 echo.
 
-goto :pstart
+pause
+exit
 
 :gherr
 echo [ERROR] Please install GitHub CLI and authenticate
